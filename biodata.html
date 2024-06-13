@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Bio Data Form</title>
+  </head>
+  <body>
+    <!--First Page-->
+    <form action="">
+      <header>
+        <div>
+          <h3 class="underline">EDUCATION DIVISION</h3>
+          <h3 class="underline">BIO-DATA FORM</h3>
+        </div>
+        <div id="photo-upload">
+          <label for="passport-upload" class="custom-passport-upload"
+            >Upload Passport Photograph</label
+          >
+          <input type="file" id="passport-upload" />
+        </div>
+      </header>
+
+      <!--SECTION A-->
+      <p class="bold">(a) General Information</p>
+      <label for="name">1. Name of Employee: </label>
+      <input type="text" class="longer-input" />
+      <label for="designation">Designation: </label>
+      <input type="text" /><br />
+
+      <label for="employee-id">2. Employee ID No: </label>
+      <input type="text" class="longer-input" />
+      <label for="sex">Sex: </label>
+      <input type="text" /><br />
+
+      <label for="date-of-birth">3. Date of Birth: </label>
+      <input type="text" class="longer-input" />
+      <label for="nationality">Nationality: </label>
+      <input type="text" /><br />
+
+      <label for="citizenship-id">4. Citizenship ID No/Permit ID No.: </label>
+      <input type="text" class="longer-input" /><br />
+
+      <label for="thram-no">5. Thram No: </label>
+      <input type="text" class="longer-input" />
+      <label for="house-no">House No: </label>
+      <input type="text" /><br />
+
+      <label for="village">6. Village: </label>
+      <input type="text" class="longer-input" />
+      <label for="gewog">Gewog/Block: </label>
+      <input type="text" />
+      <label for="dungkhag">Dungkhag: </label>
+      <input type="text" /><br />
+
+      <label for="dzongkhag">7. Dzongkhag: </label>
+      <input type="text" class="longer-input" /><br />
+
+      <label for="country">8. Country: </label>
+      <input type="text" class="longer-input" /><br />
+
+      <label for="initial-no-date">9. Initial appointment no & Date: </label>
+      <input type="text" class="longer-input" /><br />
+
+      <label for="contact">10. Contact no. </label>
+      <input type="text" class="longer-input" /><br />
+
+      <p>11.Qualification: Indicate both academic & professional.</p>
+      <div class="grid-container section-a-b">
+        <div><p>Name of Inst.</p></div>
+        <div><p>Location & Country</p></div>
+        <div><p>Field of Study</p></div>
+        <div><p>Subject of Specialization</p></div>
+        <div><p>Date of Completion</p></div>
+        <div><p>Result & Division</p></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+      </div>
+      <br />
+
+      <label for="teach-subs">12. Teaching Subjects: </label>
+      <input type="text" class="longer-input" /><br />
+
+      <label for="curr-school">13. Current Location/School: </label>
+      <input type="text" class="longer-input" /><br />
+
+      <label for="date-join">14. Date of Joining Current Location: </label>
+      <input type="text" class="longer-input" /><br />
+
+      <label for="curr-grade">15. Current Grade: </label>
+      <input type="text" class="longer-input" /><br />
+
+      <label for="basic-pay">16. Basic Pay: </label>
+      <input type="text" class="longer-input" /><br />
+
+      <label for="Increment-date">17. Increment Date: </label>
+      <input type="text" class="longer-input" /><br />
+
+      <label for="gpf">18. GPF A/C No.: </label>
+      <input type="text" class="longer-input" /><br />
+
+      <label for="gis">19. GIS A/C No.: </label>
+      <input type="text" class="longer-input" /><br />
+
+      <label for="passport">20. Passport No. if any: </label>
+      <input type="text" class="longer-input" /><br />
+
+      <label for="personal-no">21. Personal file No.: </label>
+      <input type="text" class="longer-input" /><br />
+    </form>
+
+    <!--Second Page-->
+    <form action="">
+      <!--SECTION B-->
+      <p class="bold">(b) Work Experience</p>
+      <div class="grid-container section-a-b">
+        <div><p>School</p></div>
+        <div><p>Designation</p></div>
+        <div><p>Grade</p></div>
+        <div><p>From</p></div>
+        <div><p>To</p></div>
+        <div><p>Appt. Status</p></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+      </div>
+
+      <!--SECTION C-->
+      <p class="bold">
+        (c) Training. Conference, Seminars, Study Tours outside country (If any)
+      </p>
+      <div class="grid-container section-c">
+        <div><p>School</p></div>
+        <div><p>Designation</p></div>
+        <div><p>Grade</p></div>
+        <div><p>From</p></div>
+        <div><p>To</p></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+      </div>
+
+      <!--SECTION D-->
+      <p class="bold">
+        (d) In-country workshops, seminars, conferences, in-service training ,
+        etc
+      </p>
+      <div class="grid-container section-d">
+        <div><p>Course</p></div>
+        <div><p>Place</p></div>
+        <div><p>From</p></div>
+        <div><p>To</p></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+      </div>
+
+      <!--SECTION E-->
+      <p class="bold">
+        (e) State any health problem: (which may affect your training, posting,
+        promotion, transfer or your service in any way)
+      </p>
+      <input type="text" class="full-width-input" /><br />
+
+      <!--SECTION F-->
+      <p class="bold">(f) Parents:</p>
+      <div class="grid-container section-f">
+        <div></div>
+        <div><p>Name</p></div>
+        <div><p>Nationality</p></div>
+        <div><p>Occupation</p></div>
+        <div>
+          <p>Present Add.</p>
+        </div>
+        <div><p>Permanent Add.</p></div>
+        <div><p>Father</p></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div><p>Mother</p></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+      </div>
+    </form>
+
+    <!--Third Page-->
+    <form action="">
+      <!--SECTION G-->
+      <p class="bold">(g) Brothers & Sisters:</p>
+      <div class="grid-container section-g">
+        <div><p>SI No.</p></div>
+        <div><p>Name</p></div>
+        <div><p>Nationality</p></div>
+        <div><p>Occupation</p></div>
+        <div>
+          <p>Present Add.</p>
+        </div>
+        <div>1</div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div>2</div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div>3</div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div>4</div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div>5</div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+      </div>
+
+      <!--SECTION H-->
+      <p class="bold">
+        (h) Details of Spouse (if more than one please attach additional paper)
+      </p>
+      <label for="name">1. Name</label>
+      <input type="text" class="longer-input" />
+      <label for="nationality">Nationality</label>
+      <input type="text" /><br />
+
+      <label for="citizenship-id">2. Citizenship ID No. /Permit ID No. :</label>
+      <input type="text" class="longer-input" /><br />
+
+      <label for="thram-no">3. Thram No. :</label>
+      <input type="text" class="longer-input" />
+      <label for="house-no">House No:</label>
+      <input type="text" /><br />
+
+      <label for="village">4. Village: </label>
+      <input type="text" class="longer-input" />
+      <label for="gewog">Gewog/Block: </label>
+      <input type="text" />
+      <label for="dungkhag">Dungkhag: </label>
+      <input type="text" /><br />
+
+      <label for="dzongkhag">5. Dzongkhag: </label>
+      <input type="text" class="longer-input" /><br />
+
+      <label for="occupation">6. Occupation (Please Specify): </label>
+      <input type="text" class="longer-input" />
+      <label for="org-dept">Organization/Dept: </label>
+      <input type="text" /><br />
+
+      <label for="grade">7. Grade: </label>
+      <input type="text" class="longer-input" />
+      <label for="place-serving">Place Serving: </label>
+      <input type="text" /><br />
+
+      <label for="health-prob"
+        >8. State any health problem: (which may hinder your training, posting,
+        promotion, transfer or your service in any other way):
+      </label>
+      <input type="text" class="full-width-input" />
+
+      <!--SECTION I-->
+      <p class="bold">(i) Details of Children</p>
+      <div class="grid-container section-i-j">
+        <div><p>SI No.</p></div>
+        <div><p>Name</p></div>
+        <div><p>Date of Birth</p></div>
+        <div><p>Grade Class</p></div>
+        <div><p>Place of Work/Study</p></div>
+        <div><p>Any health problem</p></div>
+        <div></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+      </div>
+
+      <!--SECTION J-->
+      <p class="bold">
+        (j) List any other direct dependent residing permanently with the
+        Government Services
+      </p>
+      <div class="grid-container section-i-j">
+        <div><p>SI No.</p></div>
+        <div><p>Name</p></div>
+        <div><p>Date of Birth</p></div>
+        <div><p>Relationship</p></div>
+        <div><p>Place of Study/Work</p></div>
+        <div><p>Any health problem</p></div>
+        <div>1</div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div>2</div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div>3</div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div>4</div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div>5</div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+        <div contenteditable="true"></div>
+      </div>
+
+      <!--SECTION K-->
+      <p class="bold">
+        (k) Address of Person/s to be contracted in case of emergency:
+      </p>
+
+      <div class="person-case-of-emergency">
+        <div class="emergency">
+          <label for="">1. </label>
+          <div>
+            <input type="text" class="full-width-input" /><br />
+            <input type="text" class="full-width-input" /><br />
+            <label for="">Telephone Office:</label>
+            <input type="text" /><br />
+            <label for="">Residence:</label>
+            <input type="text" /><br />
+          </div>
+        </div>
+        <div class="emergency">
+          <label for="">2. </label>
+          <div>
+            <input type="text" class="full-width-input" /><br />
+            <input type="text" class="full-width-input" /><br />
+            <label for="">Telephone Office:</label>
+            <input type="text" /><br />
+            <label for="">Residence:</label>
+            <input type="text" /><br />
+          </div>
+        </div>
+      </div>
+
+      <div class="attested signatures">
+        <div></div>
+        <div>
+          <p class="bold underline">Attested by</p>
+          <label for="Signature" class="bold">Signature:</label>
+          <input type="text" /><br />
+          <label for="Name" class="bold">Name:</label>
+          <input type="text" /><br />
+        </div>
+      </div>
+
+      <div class="signatures">
+        <label for="Signature" class="bold">Signature:</label>
+        <input type="text" /><br />
+        <label for="name-of-gov" class="bold">Name of Govt. Servant: </label>
+        <input type="text" /><br />
+        <label for="date" class="bold">Date:</label>
+        <input type="text" /><br />
+      </div>
+    </form>
+  </body>
+</html>
